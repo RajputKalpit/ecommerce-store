@@ -10,7 +10,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store.jsx'
 import Cart from './components/Cart.jsx'
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: "/",
     element: <Layout />,
